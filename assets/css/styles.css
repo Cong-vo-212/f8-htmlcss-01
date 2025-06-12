@@ -76,17 +76,20 @@ a {
     background-color: #a500ff !important;
 }
 
-/* Header */
-.header {
-    position: relative;
+/* Fixed Header */
+.fixed-header {
+    display: flex;
+    justify-content: center;
     background: #e6f0ff;
-    min-height: 736px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 24px 0;
 }
 
 .navbar .navigation {
@@ -121,10 +124,17 @@ a {
     text-decoration: underline;
 }
 
+/* hero */
+.hero-wrap {
+    position: relative;
+    background: #e6f0ff;
+    min-height: 736px;
+}
+
 /* Hero Info */
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .sub-title {
