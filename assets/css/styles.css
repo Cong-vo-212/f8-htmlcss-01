@@ -130,13 +130,11 @@ a {
     position: relative;
     background: #e6f0ff;
     min-height: 736px;
+    display: flex;
+    align-items: center;
 }
 
 /* Hero Info */
-
-.hero {
-    padding-top: 130px;
-}
 
 .hero .sub-title {
     color: #687690;
